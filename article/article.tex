@@ -19,7 +19,7 @@
 %-----------------------------
 
 	\begin{abstract}
-		\noindent Abstract
+		\noindent En este documento se ha analizado el comportamiento de los algoritmos \emph{ID3} y \emph{J48} a través de su implementación en la herramienta de minería de datos \emph{Weka}\cite{tool:weka}. Como caso de prueba se ha entrenado a partir de la tabla de verdad de una función lógica a los distintos algoritmos. Como resultados de dicho análisis se ha comprobado el sobreajuste producido por \emph{ID3}, que en este caso proporciona mejores resultados que \emph{J48} debido al carácter finito de la función así como la estrategia de entrenamiento y test seguida para la realización de la comparativa.
 	\end{abstract}
 
 %-----------------------------
@@ -27,7 +27,7 @@
 %-----------------------------
 
 
-  \section{Tómese la siguiente función lógica y obténgase el árbol de decisión correspondiente usando WEKA}
+  \section{Tómese la siguiente función lógica y obténgase el árbol de decisión correspondiente usando WEKA\cite{tool:weka}}
 
 		\begin{equation}
 			\label{eq:logic_equation}
@@ -46,7 +46,7 @@
 
 
 		\paragraph{}
-		El propósito de esta práctica es analizar el comportamiento de las estrategias de aprendizaje automático básadas en estructuras jerárquicas (árboles). Para ello se ha utilizado la herramienta \emph{Weka}, que permite la realización de diversas tareas relacionadas con el aprendizaje automático de manera simple y de manera gráfica sobre conjuntos de datos. En este caso se ha realizado una comparativa entre los algoritmos de clasificación basada en árboles mediante aprendizaje supervisado.
+		El propósito de esta práctica es analizar el comportamiento de las estrategias de aprendizaje automático básadas en estructuras jerárquicas (árboles). Para ello se ha utilizado la herramienta \emph{Weka}\cite{tool:weka}, que permite la realización de diversas tareas relacionadas con el aprendizaje automático de manera simple y de manera gráfica sobre conjuntos de datos. En este caso se ha realizado una comparativa entre los algoritmos de clasificación basada en árboles mediante aprendizaje supervisado.
 
 		\paragraph{}
 		Debido a la naturaleza intrínseca de un estructura en forma de árbol, esto permiten la representación de funciones lógicas con un alto grado de acierto. Para comprobar dicha cualidad, se ha realizado un ánalisis de resultados de los algoritmos \emph{ID3} y \emph{J48}, cuyas diferencias son las siguientes:
@@ -65,7 +65,7 @@
 		\end{itemize}
 
 		\paragraph{}
-		Para los casos de prueba, con los dos algoritmos se han utilizado los parámetros por defecto de la herramienta \emph{Weka}. Tras utilizar todo el conjunto de datos tanto para entrenamiento como para test, los árboles generados por el algoritmo \textbf{ID3} y \textbf{J48} se muestran en las figuras \ref{fig:id3-tree} y \ref{fig:j48-tree}. Dichas figuras han sido generadas a partir de la herramienta \emph{treetograph}\cite{github:ismtabo-treetograph}.
+		Para los casos de prueba, con los dos algoritmos se han utilizado los parámetros por defecto de la herramienta \emph{Weka}\cite{tool:weka}. Tras utilizar todo el conjunto de datos tanto para entrenamiento como para test, los árboles generados por el algoritmo \textbf{ID3} y \textbf{J48} se muestran en las figuras \ref{fig:id3-tree} y \ref{fig:j48-tree}. Dichas figuras han sido generadas a partir de la herramienta \emph{treetograph}\cite{github:ismtabo-treetograph}.
 
 
 		\subsection{Resultados obtenidos a partir de \emph{ID3}}
